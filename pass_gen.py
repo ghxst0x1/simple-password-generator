@@ -15,7 +15,8 @@ def main():
     small = "abcdefghijklmnopqrstuvwxyz"
     large = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     numeric = "0123456789"
-    symbol = "!@#%^&*()_-=+.<>/?:,|\\"  # add or remove according to your preference
+    # symbol = "!@#%^&*()_-=+.<>/?:,|\\"  # add or remove according to your preference
+    symbol = "!@#$%&*_-<>?:" #recommended
 
     # random String generating
     string = small + large + numeric + symbol
